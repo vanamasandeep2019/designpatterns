@@ -13,7 +13,7 @@ public class SingletonDemo2 {
 		try{
 			singletonDemo2=new SingletonDemo2();
 		}catch(Exception e){
-			
+			throw new RuntimeException("Exception while creating singleton instance");
 		}
 	}
 	
